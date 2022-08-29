@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organização</title>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap'); /*Sempre logo após a tag style ou nas primeiras linhas do css separado*/
+
+        *{
+            font-family: 'Permanent Marker', cursive; /*seria interessante por o arial etc logo após para em caso de erro*/
+        }
+
+        div{
+            background-color: aquamarine;
+            width: 20%;
+            display: block;
+        }
+
+        .center{
+            color: rgb(223, 45, 45);
+        }
+
+        #unico{
+            color: blueviolet;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>Organização pessoal</h1>
+
+    <p>A organização pessoal é essencial para o melhor aproveitamento do tempo, para a criação de melhores condições de trabalho e para o desenvolvimento pessoal de qualquer pessoa. Com uma vida mais organizada, torna-se muito mais fácil encontrar soluções criativas para os mais diversos tipos de problemas.</p>
+
+    <!-- dica para criar 3 parágrafos de uma vez: p*3>lorem-->
+
+<div>
+    <h2>Ferramentas</h2>
+
+    <ul>
+        <li class="center">Evernote</li>
+        <img src="imagens/evernote.png" alt="evernote">
+        <li class="center">Onenote</li>
+        <img src="imagens/onenote.png" alt="onenote">
+        <li class="center">Google Keep</li>
+        <img src="imagens/googlekeep.png" alt="googlekeep">
+        <li id="unico">Google Agenda</li> <!--Id não pode começar com número. Sempre será apenas 1 identificador. Se precisar da mesmo configuração em várias, usa-se class-->
+        <img src="imagens/googleagenda.png" alt="googleagenda">
+        <li class="center">Microsoft To do</li>
+        <img src="imagens/microsofttodo.png" alt="microsfottodo">
+    </ul>
+
+    <a href="pagina2.html">pag 2</a> <!--posso usar o atributo target="_blank" para abrir em outa janela-->
+</div>
+    
+</body>
+</html>
